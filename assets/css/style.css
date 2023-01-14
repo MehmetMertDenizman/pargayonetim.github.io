@@ -768,6 +768,10 @@ section {
 }
 
 .portfolio .portfolio-item img {
+  height: 444px;
+  width: 444px;
+  object-fit: cover;
+
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
