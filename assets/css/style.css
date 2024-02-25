@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #000000;
+  background-color: #222;
 
 }
 
@@ -584,7 +584,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background-color: #000000;
+  background-color: #222;
   color: #fff;
   padding-bottom: 30px;
 }
@@ -593,7 +593,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #000000;
+  background: #222;
 
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -923,7 +923,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #000000;
+  background: #222;
 
   text-align: center;
   border-radius: 8px;
@@ -1045,7 +1045,7 @@ section {
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
-  background: #000000;
+  background: #222;
 
   padding: 60px 0;
 }
@@ -1122,7 +1122,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #000000;
+  background: #222;
 
   padding: 60px 0;
 }
@@ -1132,7 +1132,7 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #000000;
+  background: #222;
   border-radius: 20%;
   border: 2px solid #585858;
   filter: drop-shadow(0.15rem 0.15rem 0.15rem 0.15rem grey);
@@ -1221,7 +1221,7 @@ section {
 .contact .info {
   width: 100%;
 
-  background: #000000;
+  background: #222;
 
 
 }
@@ -1273,7 +1273,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #000000;
+  background: #222;
 }
 
 .contact .php-email-form .form-group {
@@ -1283,7 +1283,7 @@ section {
 }
 
 .contact .php-email-form .form-group .form-control {
-  background: #000000;
+  background: #222;
 
 
 }
@@ -1943,14 +1943,14 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #000000;
+  background: #222;
 
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #000000;
+  background: #222;
 
 }
 
