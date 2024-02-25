@@ -1247,6 +1247,14 @@ section {
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
+
+
+}
+
+.contact .php-email-form .form-group .form-control {
+  background: #181a1b;
+
+
 }
 
 .contact .php-email-form .error-message {
@@ -1278,9 +1286,7 @@ section {
   padding: 15px;
 }
 
-.contact .col .row {
-  background: #181a1b;
-}
+
 
 .contact .php-email-form .loading:before {
   content: "";
