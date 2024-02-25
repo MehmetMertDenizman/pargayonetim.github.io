@@ -199,7 +199,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #493c3e;
+  color: #fff;
 }
 
 .navbar .dropdown ul a i {
@@ -308,7 +308,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #493c3e;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
@@ -527,6 +527,8 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  color: #fff;
+
 }
 
 .about .content ul li {
@@ -549,6 +551,10 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .content p {
+  color: #fff;
 }
 
 .about .content .btn-learn-more {
@@ -579,7 +585,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   background-color: #000000;
-
+  color: #fff;
   padding-bottom: 30px;
 }
 
@@ -682,7 +688,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #493c3e;
+  color: #fff;
   transition: ease-in-out 0.3s;
 }
 
@@ -801,6 +807,10 @@ section {
   padding: 15px 20px;
   border-radius: 20%;
 
+}
+
+.portfolio .section-title {
+  color: #fff;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -928,7 +938,7 @@ section {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 600;
-  color: #493c3e;
+  color: #fff;
 }
 
 .pricing .box h4 {
@@ -954,7 +964,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #493c3e;
+  color: #fff;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1000,6 +1010,8 @@ section {
 
 .pricing .recommended {
   border-color: #e43c5c;
+
+
 }
 
 .pricing .recommended .btn-buy {
@@ -1023,6 +1035,10 @@ section {
   background: #fce6ea;
   color: #e43c5c;
   border-radius: 50px;
+}
+
+.pricing .section-title {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1098,6 +1114,10 @@ section {
   }
 }
 
+.faq .section-title {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1113,6 +1133,9 @@ section {
   text-align: center;
   border-radius: 5px;
   background: #000000;
+  border-radius: 20%;
+  border: 2px solid #585858;
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem 0.15rem grey);
 
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1139,7 +1162,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #493c3e;
+  color: #fff;
   margin: 0 10px;
   display: inline-flex;
   align-items: center;
@@ -1167,7 +1190,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #493c3e;
+  color: #fff;
 }
 
 .team .member .member-info span {
@@ -1188,6 +1211,10 @@ section {
   opacity: 1;
 }
 
+.team .section-title {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1198,6 +1225,10 @@ section {
 
 
 }
+
+
+
+
 
 .contact .info i {
   font-size: 20px;
@@ -1218,14 +1249,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #493c3e;
+  color: #fff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #816a6e;
+  color: #ffffff;
 }
 
 .contact .info .email,
@@ -1354,6 +1385,10 @@ section {
   }
 }
 
+.contact .section-title {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1421,7 +1456,7 @@ section {
 }
 
 .blog .entry .entry-title a {
-  color: #493c3e;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1594,7 +1629,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: #493c3e;
+  color: #fff;
 }
 
 .blog .blog-author .social-links {
@@ -1649,7 +1684,7 @@ section {
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #493c3e;
+  color: #fff;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -1736,7 +1771,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-  color: #493c3e;
+  color: #fff;
   padding: 7px 16px;
   display: flex;
   align-items: center;
@@ -1764,7 +1799,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #493c3e;
+  color: #fff;
   position: relative;
 }
 
@@ -1821,7 +1856,7 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: #493c3e;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1851,7 +1886,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #493c3e;
+  color: #fff;
   transition: 0.3s;
 }
 
