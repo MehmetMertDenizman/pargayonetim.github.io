@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #131516;
+  background-color: #0f1111;
 
 }
 
@@ -578,7 +578,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background-color: #131516;
+  background-color: #0f1111;
 
   padding-bottom: 30px;
 }
@@ -587,7 +587,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #131516;
+  background: #0f1111;
 
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -632,7 +632,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #ffffff;
 }
 
 .services .description {
@@ -654,7 +654,7 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-  background-color: #131516;
+  background-color: #0f1111;
 
   padding-top: 20px;
 }
@@ -913,7 +913,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #131516;
+  background: #0f1111;
 
   text-align: center;
   border-radius: 8px;
@@ -1029,7 +1029,7 @@ section {
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
-  background: #131516;
+  background: #0f1111;
 
   padding: 60px 0;
 }
@@ -1102,7 +1102,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #131516;
+  background: #0f1111;
 
   padding: 60px 0;
 }
@@ -1112,7 +1112,7 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #131516;
+  background: #0f1111;
 
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1194,7 +1194,7 @@ section {
 .contact .info {
   width: 100%;
 
-  background: #131516;
+  background: #0f1111;
 
 
 }
@@ -1242,7 +1242,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #131516;
+  background: #0f1111;
 }
 
 .contact .php-email-form .form-group {
@@ -1252,14 +1252,14 @@ section {
 }
 
 .contact .php-email-form .form-group .form-control {
-  background: #131516;
+  background: #0f1111;
 
 
 }
 
 .contact .php-email-form .error-message {
   display: none;
-  background: #131516;
+  background: #0f1111;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1908,14 +1908,14 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #131516;
+  background: #0f1111;
 
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #131516;
+  background: #0f1111;
 
 }
 
