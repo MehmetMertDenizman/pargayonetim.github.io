@@ -2104,7 +2104,9 @@ section {
   font-family: 'Arvo', serif;
 }
 
-.page_404 img {}
+.page_404 img {
+  height: 600px;
+}
 
 .four_zero_four_bg {
 
