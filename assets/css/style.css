@@ -93,10 +93,12 @@ h6 {
 }
 
 #header .logo2 img {
-  max-height: 125px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  height: 125px;
+  width: 125px;
+
+
+  display: block;
+
 }
 
 #header.header-scrolled,
