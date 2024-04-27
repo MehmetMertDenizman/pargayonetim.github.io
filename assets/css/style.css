@@ -1139,6 +1139,8 @@ section {
 }
 
 .team .member {
+
+
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -1157,6 +1159,8 @@ section {
   overflow: hidden;
 }
 
+.team .member .member-img img {}
+
 .team .member .social {
   position: absolute;
   left: 0;
@@ -1165,7 +1169,7 @@ section {
   height: 40px;
   opacity: 0;
   transition: ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 3, 3, 0.85);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1201,13 +1205,13 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #fff;
+  color: #ff0000;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   color: #aaaaaa;
 }
 
@@ -1225,6 +1229,9 @@ section {
 .team .section-title {
   color: #fff;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Contact
