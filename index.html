@@ -75,6 +75,32 @@
     "postalCode": "34180",
     "addressCountry": "TR"
   },
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Yaşam alanımızın yönetimini neden profesyonel bir şirkete vermeliyiz?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Aidatları toplayamıyorsanız, komşularınızla kötü olmak istemiyorsanız, hukuksal işler ve muhasebe ile uğraşacak vaktiniz yoksa profesyonel bir şirkete yönetimi devretmeniz en uygun karar olacaktır."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Profesyonel yönetim firmasının bizlere yararları nelerdir?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yaşam alanınızla ilgili her işi biz üstleniyor ve sizi olası tartışmalardan, stres ve zaman kaybından kurtarıyoruz. Aidatlar düzenli toplanıyor, giderler ödeniyor ve arızalar hızlıca çözülüyor."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Profesyonel yönetim firmasının maliyeti ne kadar?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Fiyatlarımız sabit. Lokasyona veya yaşam alanınınızın büyüklüğüne göre fiyat vermiyoruz."
+    }
+  }]
+}
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 40.9933909,
@@ -2133,7 +2159,7 @@
                     Şişli / İstanbul</p>
                 </a>
               </div>
-              <a href=""></a>
+
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email: <a href="mailto:info@pargayonetim.com"><strong>info@pargayonetim.com</strong> </a> </h4>
@@ -2164,19 +2190,21 @@
               <input type="hidden" name="_captcha" value="false">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Adınız" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email adresiniz"
+                  <input type="text" name="name" class="form-control" id="name" aria-label="Adınız" placeholder="Adınız"
                     required>
                 </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" aria-label="Email"
+                    placeholder="Email adresiniz" required>
+                </div>
               </div>
               <div class="form-group mt-3">
-                <input type="number" class="form-control" name="subject" id="subject" placeholder="Telefonunuz"
-                  required>
+                <input type="number" class="form-control" name="subject" id="subject" aria-label="Telefonunuz"
+                  placeholder="Telefonunuz" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mesajınız" required></textarea>
+                <textarea class="form-control" name="message" rows="5" aria-label="Mesajınız" placeholder="Mesajınız"
+                  required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">İşleniyor</div>
